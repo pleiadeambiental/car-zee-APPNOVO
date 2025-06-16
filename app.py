@@ -224,7 +224,7 @@ if st.button("Consultar"):
         st.error(resultado["erro"])
         st.stop()
 
-     st.success(f"Imóvel: {resultado['nome_imovel']}  \nCAR: {resultado['numero_car']}")
+    st.success(f"Imóvel: {resultado['nome_imovel']}  \nCAR: {resultado['numero_car']}")
 
     # Tabela ZEE
     if resultado["zonas"]:
