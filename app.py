@@ -47,104 +47,77 @@ descricoes_zonas = {
         "titulo": "Zonas Especiais de Unidades de Conservação de Proteção Integral (ZEPIs)",
         "categoria": "Restritiva",
         "descricao": (
-            "Unidades de Conservação de uso indireto. Permite apenas pesquisa, educação ambiental e "
-            "visita controlada aprovada no Plano de Manejo. Mineração, agropecuária ou qualquer "
-            "exploração direta é vedada. Não existe Reserva Legal a reduzir (área pública). Grande parte "
-            "coincide com APSE, mantendo prioridade absoluta de conservação."
+            "As ZEPIs abrangem todas as unidades de conservação de proteção integral, em conformidade com o Sistema Nacional de Unidades de Conservação (SNUC), tendo como objetivo básico “preservar a natureza, sendo admitido apenas o uso indireto dos seus recursos naturais” (BRASIL, 2000, Artigo 7º, Parágrafo 1º). Esse tipo de utilização é entendido como “aquele que não envolve consumo, coleta, dano ou destruição dos recursos naturais” (BRASIL, 2000, Artigo 2º, Inciso IX)."
         )
     },
     "Zonas Especiais de Unidades de Conservação de Uso Sustentável": {
         "titulo": "Zonas Especiais de Unidades de Conservação de Uso Sustentável (ZEUSs)",
         "categoria": "Restritiva",
         "descricao": (
-            "Unidades de Conservação de uso sustentável. Autoriza extrativismo, agricultura tradicional, "
-            "turismo ecológico e manejo florestal conforme Plano de Manejo. Atividades de maior impacto "
-            "exigem licenciamento. A Reserva Legal pode ser reduzida para 50 % se o Plano da UC prever. "
-            "Fragmentos de APSE internos devem ser preservados."
+            "As ZEUS abrangem todas as unidades de conservação de uso sustentável e têm o objetivo básico de “compatibilizar a conservação da natureza com o uso sustentável de parcela dos seus recursos naturais” (BRASIL, 2000, Artigo 7º, Parágrafo 2º). Esse tipo de utilização é entendido como a “exploração do ambiente de maneira a garantir a perenidade dos recursos ambientais renováveis e dos processos ecológicos, mantendo a biodiversidade e os demais atributos ecológicos, de forma socialmente justa e economicamente viável” (BRASIL, 2000, Artigo 2º, Inciso XI)."
         )
     },
     "Zonas Especiais de Terras Indígenas": {
         "titulo": "Zonas Especiais de Terras Indígenas (ZETIs)",
         "categoria": "Restritiva",
         "descricao": (
-            "Territórios de usufruto exclusivo dos povos indígenas. Usos tradicionais (caça, pesca, coleta, "
-            "roça) são garantidos; qualquer projeto externo precisa de consulta prévia e autorização da "
-            "comunidade e da FUNAI. Exploração por não indígenas é proibida. APP e remanescentes naturais "
-            "costumam permanecer intactos; não se aplica redução de Reserva Legal."
+            "As ZETIs compreendem terras ocupadas ou habitadas pelos povos indígenas (bens inalienáveis da União), cabendo-lhes a posse permanente “e o direito ao usufruto exclusivo das riquezas naturais e de todas as utilidades”, incluindo o “uso dos mananciais e das águas dos trechos das vias fluviais” entendidos, como o produto da sua exploração econômica” (BRASIL, 1973, Artigos 22-24)."
         )
     },
     "Zonas de Desenvolvimento Integrado 1": {
         "titulo": "Zonas de Desenvolvimento Integrado 1 (ZDIs-1)",
         "categoria": "Restritiva",
         "descricao": (
-            "Vocação de conservação máxima. Recomenda PSA, regeneração e RPPN; apenas agricultura/pecuária "
-            "de subsistência já aberta pode continuar. Mineração, indústrias e novos desmatamentos são "
-            "proibidos. Reserva Legal deve manter 80/35/20 % (sem redução). Quase toda a área costuma ser APSE."
+            "As ZDIs-1 têm como objetivo básico garantir a proteção e a restauração muito intensiva dos ecossistemas naturais em harmonia com as dinâmicas sociais e econômicas. Apresentam **vocação máxima para a conservação ecológica e implantação de serviços ambientais e potencial mínimo para dinamização do desenvolvimento socioeconômico**, consideradas as limitações e capacidades de suporte do meio natural. Compreendem áreas com predominância de fragilidade biológica e/ou suscetibilidade física muito alta e alta."
         )
     },
     "Zonas de Desenvolvimento Integrado 2": {
         "titulo": "Zonas de Desenvolvimento Integrado 2 (ZDIs-2)",
         "categoria": "Restritiva",
         "descricao": (
-            "Alta prioridade de proteção com pequenos usos já consolidados. Aceita lavouras familiares e "
-            "pecuária extensiva sob manejo conservacionista. Qualquer novo projeto de impacto exige "
-            "licenciamento estrito. Reserva Legal integral (sem redução). Forte presença de APSE."
+            "As ZDIs-2 têm como objetivo básico garantir a proteção e a restauração intensiva dos ecossistemas naturais em harmonia com as dinâmicas sociais e econômicas. Apresentam **vocação muito alta para a conservação ecológica e implantação de serviços ambientais e potencial muito baixo para dinamização do desenvolvimento socioeconômico**, consideradas as limitações e capacidades de suporte do meio natural. Compreendem áreas com predominância de fragilidade biológica e/ou suscetibilidade física muito alta e alta."
         )
     },
     "Zonas de Desenvolvimento Integrado 3": {
         "titulo": "Zonas de Desenvolvimento Integrado 3 (ZDI-3)",
         "categoria": "Intermediária",
         "descricao": (
-            "Permite agropecuária extensiva aprimorada, reflorestamento comercial limitado e turismo "
-            "ecológico. Empreendimentos médios/altos requerem EIA/RIMA. Reserva Legal pode ser regularizada "
-            "em 50 % da área em floresta (Amazônia Legal), excluindo trechos prioritários. Fragmentos de APSE "
-            "existentes não admitem redução de RL."
+            "As ZDIs-3 têm como objetivo básico garantir a proteção e a restauração dos ecossistemas naturais em harmonia com as dinâmicas sociais e econômicas. Apresentam **vocação alta para a conservação ecológica e implantação de serviços ambientais e potencial baixo para dinamização do desenvolvimento socioeconômico**, consideradas as limitações e capacidades de suporte do meio natural. Compreendem áreas com predominância de fragilidade biológica e/ou suscetibilidade física alta."
         )
     },
     "Zonas de Desenvolvimento Integrado 4": {
         "titulo": "Zonas de Desenvolvimento Integrado 4 (ZDI-4)",
         "categoria": "Intermediária",
         "descricao": (
-            "Uso produtivo extensivo tradicional: agricultura e pecuária de médio porte, extrativismo e "
-            "agroindústrias locais. Projetos de maior impacto precisam de licenciamento. Reserva Legal "
-            "passível de redução a 50 % para regularizar passivos (Amazônia Legal), excetuando áreas prioritárias. "
-            "APSE, se presente, deve permanecer intacta."
+            "As ZDIs-4 têm como objetivo básico garantir a proteção e a restauração dos ecossistemas naturais em equilíbrio com a dinamização do desenvolvimento socioeconômico. Apresentam **vocação média superior para a conservação ecológica e implantação de serviços ambientais e potencial médio inferior para dinamização do desenvolvimento socioeconômico**, consideradas as limitações e capacidades de suporte do meio natural. Compreendem áreas com predominância de fragilidade biológica e/ou suscetibilidade física alta."
         )
     },
     "Zonas de Consolidação Estratégica 4": {
         "titulo": "Zonas de Consolidação Estratégica 4 (ZCEs-4)",
         "categoria": "Intermediária",
         "descricao": (
-            "Zona diversificada: agropecuária intensiva/extensiva, reflorestamento, mineração local, energia e "
-            "indústrias regionais. Exige licenciamento rigoroso para altos impactos. Reserva Legal pode ser "
-            "regularizada em 50 % na Amazônia Legal; APSE internas requerem tratamento como área protegida."
+            "As ZCE-4 têm como objetivo básico promover usos diretos da terra para fins produtivos em equilíbrio com a capacidade de suporte do meio natural, e a conservação e recuperação de remanescentes naturais. Apresentam **potencial médio superior para dinamização do desenvolvimento socioeconômico considerando o uso sustentável dos recursos naturais e vocação média inferior para a conservação ecológica**. Compreendem áreas com vulnerabilidade natural variando entre baixa a alta."
         )
     },
     "Zonas de Consolidação Estratégica 3": {
         "titulo": "Zonas de Consolidação Estratégica 3 (ZCEs-3)",
         "categoria": "Produtiva",
         "descricao": (
-            "Alto potencial socioeconômico. Grandes lavouras, pecuária intensiva, silvicultura, indústria e logística "
-            "são permitidos, devendo obedecer licenciamento ambiental. Reserva Legal pode ser reduzida a 50 % para "
-            "passivos históricos, mantendo APP. APSE praticamente ausente; onde existir, conservação é obrigatória."
+            "As ZCE-3 têm como objetivo básico promover a dinamização socioeconômica em equilíbrio com a capacidade de suporte do meio natural e os limites legais de proteção ambiental. Apresentam **potencial alto para dinamização do desenvolvimento socioeconômico considerando o uso sustentável dos recursos naturais e vocação baixa para a conservação ecológica**. Compreendem áreas com vulnerabilidade natural variando entre baixa a alta."
         )
     },
     "Zonas de Consolidação Estratégica 2": {
         "titulo": "Zonas de Consolidação Estratégica 2 (ZCEs-2)",
         "categoria": "Produtiva",
         "descricao": (
-            "Eixo primário de desenvolvimento com agronegócio em larga escala, polos industriais e grandes obras de "
-            "infraestrutura. Necessita licenciamento rigoroso. Reserva Legal pode ser regularizada em 50 %. APSE raras; "
-            "pequenos fragmentos devem ser preservados."
+            "As ZCE-2 têm como objetivo básico promover a dinamização socioeconômica intensa em equilíbrio com a capacidade de suporte do meio natural e os limites legais de proteção ambiental. Apresentam **potencial muito alto para dinamização do desenvolvimento socioeconômico considerando o uso sustentável dos recursos naturais e vocação muito baixa para a conservação ecológica**. Compreendem áreas com predominância de vulnerabilidade natural baixa."
         )
     },
     "Zonas de Consolidação Estratégica 1": {
         "titulo": "Zonas de Consolidação Estratégica 1 (ZCEs-1)",
         "categoria": "Produtiva",
         "descricao": (
-            "Áreas de uso intensivo consolidado. Todas as atividades lícitas são permitidas, desde que cumpram leis "
-            "ambientais e licenciamento. Reserva Legal pode chegar a 50 % para regularização; demais casos seguem 20/35 %. "
-            "APSE quase inexistentes; se presentes, são mantidas via APP/RL."
+            "As ZCE-1 têm como objetivo básico promover a dinamização socioeconômica muito intensa em equilíbrio com a capacidade de suporte do meio natural e os limites legais de proteção ambiental. Apresentam **potencial máximo para dinamização do desenvolvimento socioeconômico considerando o uso sustentável dos recursos naturais e vocação mínima para a conservação ecológica**. Compreendem áreas com predominância de vulnerabilidade natural baixa e muito baixa."
         )
     }
 }
@@ -253,17 +226,9 @@ if st.button("Consultar"):
 
         st.markdown("### O que significa para você?")
         st.markdown("""
-**Composição**  
-Reservas Legais declaradas no CAR, remanescentes florestais nativos relevantes, fundos de vale, entorno de reservatórios, veredas, matas de galeria, áreas íngremes (> 45 %), mananciais de abastecimento e zonas estratégicas de restauração.
-
-**Objetivo**  
-Priorizar a conservação de água e biodiversidade, mantendo a provisão de serviços ecossistêmicos e possibilitando ganhos ambientais e socioeconômicos.
-
-**Diretrizes principais**  
-Conservar remanescentes prioritários; Integrar RL e APP; Monitorar e prevenir incêndios e desmatamento; Incentivar PSA e projetos REDD+; Desenvolver pesquisa e educação sobre serviços ecossistêmicos; e Estimular criação de RPPN e compensação de RL.
-
-**Reserva Legal**  
-Dentro de APSE não é permitido reduzir a RL para 50 %; deve manter os percentuais integrais (80/35/20 %), mesmo em zonas que admitam redução fora da APSE.
+As **Áreas Prioritárias para Serviços Ecossistêmicos (APSE)** são porções territoriais propostas no ZEE-TO com o objetivo principal de **conservar os recursos hídricos**, proteger remanescentes de vegetação nativa e **potencializar usos sustentáveis do território**, especialmente aqueles baseados em subprodutos do meio natural. Essas áreas atuam de forma **suplementar ao zoneamento** principal, sendo definidas a partir de fundamentos estruturantes e tendências de crescimento do estado.
+ 
+As APSE correspondem a **áreas com funções ecológicas estratégicas**, como **Reservas Legais, vegetação nativa, fundos de vale e mananciais**, incluindo espaços com baixa aptidão produtiva, mas alta relevância ambiental. Como consta nas diretrizes do ZEE, uma das metas centrais é **“conservar áreas de florestas e outros ambientes naturais nas Áreas Prioritárias para Serviços Ecossistêmicos, mais notadamente os habitats que contenham alta diversidade de flora e fauna.”** Essas áreas também integram ações de **educação ambiental, PSA, REDD+ e compensações legais**, sendo peças-chave na transição para modelos produtivos sustentáveis no Tocantins.
         """)
 
         st.caption("Dados oficiais do Zoneamento Ecológico-Econômico do Tocantins – versão 2025. Projeto de Lei encaminhado à ALETO em 02 abr 2025.")
