@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import geopandas as gpd
 import base64
+import time
 from pathlib import Path
 
 st.set_page_config(page_title="Consulta CAR x ZEE", layout="centered")
@@ -208,18 +209,22 @@ if st.button("Consultar"):
         st.warning("Por favor, digite o número do CAR.")
         st.stop()
 
-    resultado = analisar_intersecao(
-        numero_car,
-        "app/data/car.shp",
-        "app/data/zee.shp",
-        "app/data/servicos_ecossistemicos_4674.shp"
-    )
+    with st.spinner("🔄 Cruzando dados geoespaciais. Quase pronto!"):
+        # Simula um pequeno atraso para o spinner aparecer mesmo que rápido
+        time.sleep(0.5)
+
+        resultado = analisar_intersecao(
+            numero_car,
+            "app/data/car.shp",
+            "app/data/zee.shp",
+            "app/data/servicos_ecossistemicos_4674.shp"
+        )
 
     if "erro" in resultado:
         st.error(resultado["erro"])
         st.stop()
 
-    st.success(f"Imóvel: {resultado['nome_imovel']}  \nCAR: {resultado['numero_car']}")
+     st.success(f"Imóvel: {resultado['nome_imovel']}  \nCAR: {resultado['numero_car']}")
 
     # Tabela ZEE
     if resultado["zonas"]:
