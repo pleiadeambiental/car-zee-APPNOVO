@@ -230,7 +230,7 @@ if st.button("Consultar"):
         df["%"] = df["%"].map(lambda x: f"{x:.2f}".replace('.', ','))
         df = df.rename(columns={"zona": "Zona"})[["Zona", "%"]]
         st.markdown("### Zoneamento Ecológico-Econômico (ZEE)")
-        st.table(df)
+        st.dataframe(df, use_container_width=True, hide_index=True)
 
     st.caption("Dados oficiais do Zoneamento Ecológico-Econômico do Tocantins – versão 2025. Projeto de Lei encaminhado à ALETO em 02 abr 2025.")
 
@@ -249,7 +249,7 @@ if st.button("Consultar"):
         df_apse["%"] = df_apse["percentual"].str.replace(",", ".").astype(float)
         df_apse["%"] = df_apse["%"].map(lambda x: f"{x:.2f}".replace('.', ','))
         df_apse = df_apse.rename(columns={"servico": "Serviço"})[["Serviço", "%"]]
-        st.table(df_apse)
+        st.dataframe(df_apse, use_container_width=True, hide_index=True)
 
         st.markdown("### O que significa para você?")
         st.markdown("""
