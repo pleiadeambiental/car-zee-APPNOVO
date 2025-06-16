@@ -209,7 +209,7 @@ if st.button("Consultar"):
         st.warning("Por favor, digite o número do CAR.")
         st.stop()
 
-    with st.spinner("🔄 Cruzando dados geoespaciais. Quase pronto!"):
+    with st.spinner("Cruzando dados geoespaciais. Quase pronto!"):
         time.sleep(0.5)
         resultado = analisar_intersecao(
             numero_car,
